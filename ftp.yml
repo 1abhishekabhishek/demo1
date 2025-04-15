@@ -1,0 +1,8 @@
+---
+  - name: play1
+    hosts: all
+    task:
+    - name: install ftp apcke.
+      ansile.builtin.yim:
+        name: vdftpd
+        state: latest
